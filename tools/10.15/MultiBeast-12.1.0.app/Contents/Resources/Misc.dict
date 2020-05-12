@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Name</key>
+        <array>
+            <string>Misc</string>
+            <string>Collection of miscellaneous kexts that provide enhanced hardware support. Be sure to read the descriptions carefully before installation.</string>
+        </array>
+        <key>Children</key>
+        <array>
+            <array>
+                <string>VirtualSMC</string>
+                <string>VirtualSMC.kext is the only absolutely mandatory kext required for booting the system. Advanced Apple SMC emulator from vit9696. Installs VirtualSMC.kext in /Volumes/EFI/EFI/CLOVER/kexts/Other.</string>
+                <string>VirtualSMC-v1.1.1.pkg</string>
+            </array>
+            <array>
+                <string>VirtualSMC Plugins</string>
+                <string>Installs VirtualSMC plugins SMCProcessor.kext and SMCSuperIO.kext in /Volumes/EFI/EFI/CLOVER/kexts/Other. These plugins allow software access to motherboard hardware monitors.</string>
+                <string>VirtualSMC-Plugins-v1.1.1.pkg</string>
+            </array>
+            <array>
+                <string>HWMonitorSMC2 HWMonitor Application</string>
+                <string>Hardware Monitoring application HWSensors branch based on FakeSMC-3.x. Requires VirtualSMC Motherboard Plugins. Installs /Applications/HWMonitorSMC2.app.</string>
+                <string>HWMonitorSMC2-v2.6.1.pkg</string>
+            </array>
+            <array>
+                <string>NullCPUPowerManagement</string>
+                <string>Disables AppleIntelCPUPowerManagement.kext to prevent kernel panic without proper HPET DSDT edits. Installs NullCPUPowerManagement.kext in /Volumes/EFI/EFI/CLOVER/kexts/Other.</string>
+                <string>NullCPUPowerManagement-v1.0.0d2.pkg</string>
+            </array>
+            <dict>
+                <key>Name</key>
+                <array>
+                    <string>VoodooTSCSync</string>
+                    <string>VoodooTSCSync.kext synchronizes the Timer Stamp Counter (TSC) on x86/Intel®64 CPUs. Only necessary for LGA2011 and LGA2066 CPUs. Rehabman’s branch of Cosmosis Jones' VoodooTSCSync. Installs VoodooTSCSync.kext in /Volumes/EFI/EFI/CLOVER/kexts/Other.</string>
+                    <string>VoodooTSCSync-v1.5.0.pkg</string>
+                </array>
+            </dict>
+        </array>
+    </dict>
+</plist>

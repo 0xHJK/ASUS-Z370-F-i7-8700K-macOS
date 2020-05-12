@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Name</key>
+        <array>
+            <string>System Definitions</string>
+            <string>Updates SMBIOS in /Volumes/EFI/EFI/CLOVER/config.plist to identify your system as the chosen Mac model with a valid serial number. iMac14,2 is installed by default QuickStart installations, and is the general recommendation. </string>
+        </array>
+        <key>Children</key>
+        <array>
+            <dict>
+                <key>Name</key>
+                <array>
+                    <string>Mac Pro</string>
+                    <string>Identifies your system as the chosen Mac model with a valid serial number.</string>
+                </array>
+                <key>Children</key>
+                <array>
+                    <array>
+                        <string>Mac Pro 5,1</string>
+                        <string>This identifies your computer as a MacPro5,1 with a Xeon X5650.</string>
+                        <string>MacPro5,1</string>
+                    </array>
+                    <array>
+                        <string>Mac Pro 6,1</string>
+                        <string>This identifies your computer as a MacPro6,1 with a Xeon E5-1680v2.</string>
+                        <string>MacPro6,1</string>
+                    </array>
+                </array>
+            </dict>
+            <dict>
+                <key>Name</key>
+                <array>
+                    <string>iMac</string>
+                    <string>Identifies your system as the chosen Mac model with a valid serial number.</string>
+                </array>
+                <key>Children</key>
+                <array>
+                    <array>
+                        <string>iMac 13,1</string>
+                        <string>This identifies your computer as an iMac13,1 with a Core i7-3770S.</string>
+                        <string>iMac13,1</string>
+                    </array>
+                    <array>
+                        <string>iMac 13,2</string>
+                        <string>This identifies your computer as an iMac13,2 with a Core i5-3470</string>
+                        <string>iMac13,2</string>
+                    </array>
+                    <array>
+                        <string>iMac 14,1</string>
+                        <string>This identifies your computer as an iMac14,1 with a Core i5-4570R.</string>
+                        <string>iMac14,1</string>
+                    </array>
+                    <array>
+                        <string>iMac 14,2</string>
+                        <string>This identifies your computer as an iMac14,2 with a Core i5-4570.</string>
+                        <string>iMac14,2</string>
+                    </array>
+                    <array>
+                        <string>iMac 15,1</string>
+                        <string>This identifies your computer as an iMac15,1 with a Core i5-4690.</string>
+                        <string>iMac15,1</string>
+                    </array>
+                    <array>
+                        <string>iMac 16,1</string>
+                        <string>This identifies your computer as an iMac16,1 with a Core i5-5250U.</string>
+                        <string>iMac16,1</string>
+                    </array>
+                   <array>
+                        <string>iMac 16,2</string>
+                        <string>This identifies your computer as an iMac16,2 with a i5-5575R.</string>
+                        <string>iMac16,2</string>
+                    </array>
+                    <array>
+                        <string>iMac 17,1</string>
+                        <string>This identifies your computer as an iMac17,1 with a i7-6700K.</string>
+                        <string>iMac17,1</string>
+                    </array>
+                    <array>
+                        <string>iMac 18,1</string>
+                        <string>This identifies your computer as an iMac18,1 with a Core i5-7360U.</string>
+                        <string>iMac18,1</string>
+                    </array>
+                    <array>
+                        <string>iMac 18,2</string>
+                        <string>This identifies your computer as an iMac18,2 with a Core i5-7500.</string>
+                        <string>iMac18,2</string>
+                    </array>
+                    <array>
+                        <string>iMac 18,3</string>
+                        <string>This identifies your computer as an iMac18,3 with a Core i7-7700K.</string>
+                        <string>iMac18,3</string>
+                    </array>
+                    <array>
+                        <string>iMac 19,1</string>
+                        <string>This identifies your computer as an iMac19,1 with a Core i9-9900K.</string>
+                        <string>iMac19,1</string>
+                    </array>
+                    <array>
+                        <string>iMac 19,2</string>
+                        <string>This identifies your computer as an iMac19,2 with a Core i7-8700B.</string>
+                        <string>iMac19,2</string>
+                    </array>
+                    <array>
+                        <string>iMac Pro 1,1</string>
+                        <string>This identifies your computer as an iMacPro1,1 with a Xeon W-2140B.</string>
+                        <string>iMacPro1,1</string>
+                    </array>               </array>
+            </dict>
+            <dict>
+                <key>Name</key>
+                <array>
+                    <string>Mac mini</string>
+                    <string>Identifies your system as the chosen Mac model with a valid serial number.</string>
+                </array>
+                <key>Children</key>
+                <array>
+                    <array>
+                        <string>Mac mini 6,2</string>
+                        <string>This identifies your computer as a Macmini6,2 with a Core i7-3615QM.</string>
+                        <string>Macmini6,2</string>
+                    </array>
+                    <array>
+                        <string>Mac mini 7,1</string>
+                        <string>This identifies your computer as a Macmini7,1 with a Core i5-4278U.</string>
+                        <string>Macmini7,1</string>
+                    </array>
+                    <array>
+                        <string>Mac mini 8,1</string>
+                        <string>This identifies your computer as a Macmini8,1 with a Core i7-8700B.</string>
+                        <string>Macmini8,1</string>
+                    </array>
+                </array>
+            </dict>
+        </array>
+    </dict>
+</plist>
+

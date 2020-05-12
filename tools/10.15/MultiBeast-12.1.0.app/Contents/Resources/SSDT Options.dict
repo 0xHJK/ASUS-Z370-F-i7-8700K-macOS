@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Name</key>
+        <array>
+            <string>SSDT Options</string>
+            <string>Optimized system/CPU specific SSDTs.</string>
+        </array>
+        <key>Children</key>
+        <array>
+            <array>
+                <string>Z390 Series NVRAM Support</string>
+                <string>Acidanthera's SSDT that restores native NVRAM support on Z390 motherboards. Installs SSDT-PMC.aml in /Volumes/EFI/EFI/CLOVER/ACPI/patched/.</string>
+                <string>SSDT-PMC.aml</string>
+            </array>
+            <array>
+                <string>Sandy Bridge Core i5</string>
+                <string>Optimized SSDT supporting Sandy Bridge Core i5 CPUs with a maximum Turbo Boost clock of 3.8 GHz. Installs SSDT-SB-i5.aml in /Volumes/EFI/EFI/CLOVER/ACPI/patched/</string>
+                <string>SSDT-SB-i5.aml</string>
+            </array>
+            <array>
+                <string>Sandy Bridge Core i7</string>
+                <string>Optimized SSDT supporting Sandy Bridge Core i7 CPUs with a maximum Turbo Boost clock of 3.9 GHz. Installs SSDT-SB-i7.aml in /Volumes/EFI/EFI/CLOVER/ACPI/patched/</string>
+                <string>SSDT-SB-i7.aml</string>
+            </array>
+            <array>
+                <string>Sandy Bridge Core i5 / i7 Overclocked</string>
+                <string>Optimized SSDT supporting Sandy Bridge Core i5 or Core i7 CPUs overclocked up to 4.2 Ghz. Installs SSDT-SB-OC.aml in /Volumes/EFI/EFI/CLOVER/ACPI/patched/</string>
+                <string>SSDT-SB-OC.aml</string>
+            </array>
+        </array>
+    </dict>
+</plist>

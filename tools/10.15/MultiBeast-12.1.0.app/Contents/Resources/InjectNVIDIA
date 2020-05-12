@@ -1,0 +1,30 @@
+#!/bin/bash
+#
+#	MultiBeast script for setting Inject NVIDIA true
+#
+#	Usage:
+#
+#		InjectNVIDIA "Explicit path for config.plist"
+#
+#	Return Codes:
+#
+#		0 - Successfully set Inject NVIDIA true in Clover config.plist
+#		1 - Failed to set Inject NVIDIA true in Clover config.plist
+#
+# 	Copyright (C) tonymacx86 LLC
+
+CONFIG_PLIST="${1}"
+
+if [ $(/usr/libexec/PlistBuddy -c "Print :Graphics:Inject:Intel" "${CONFIG_PLIST}" | grep -c "true") -eq 0 ]; then
+	if /usr/libexec/PlistBuddy -c "Set :Graphics:Inject:NVidia true" "${CONFIG_PLIST}" ; then
+		exit 0
+	fi
+else
+	if /usr/libexec/PlistBuddy -c "Set :Graphics:Inject:Intel false" "${CONFIG_PLIST}" ; then
+		if /usr/libexec/PlistBuddy -c "Set :Graphics:Inject:NVidia true" "${CONFIG_PLIST}" ; then
+			exit 0
+		fi
+	else
+		exit 1
+	fi
+fi

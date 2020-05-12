@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Name</key>
+        <array>
+            <string>Graphics</string>
+            <string>Choose from the following additional graphics configurations.</string>
+        </array>
+        <key>Children</key>
+        <array>
+            <array>
+                <string>Core Graphics Fixup AKA WhateverGreen</string>
+                <string>Provides various patches necessary for certain AMD/Intel/Nvidia GPUs by vit9696. Installs Lilu.kext and WhateverGreen.kext to /Library/Extensions.</string>
+                <string>WhateverGreen-v1.2.9.pkg</string>
+            </array>
+            <array>
+                <string>Intel HD 630 (Coffee Lake)</string>
+                <string>Fixes Intel HD 630 (Coffee Lake) graphics issues on desktop 300 Series systems with DVI ports. Sets ig-platform-id to 0x3E9B0007 in /Volumes/EFI/EFI/CLOVER/config.plist.</string>
+                <string>Clover-Coffee-Lake-HD630-Graphics.pkg</string>
+            </array>
+            <array>
+                <string>Inject ATI</string>
+                <string>For desktop systems with older ATI graphics cards such as ATI Radeon 4xxx. Adds Graphics/Inject/ATI=YES to CustoMac Default /Volumes/EFI/EFI/CLOVER/config.plist. Equivalent to Chimera/Chameleon GraphicsEnabler=Yes.</string>
+                <string>InjectATI</string>
+            </array>
+            <array>
+                <string>Inject NVIDIA</string>
+                <string>For desktop systems with older NVIDIA graphics cards such as GeForce 8xxx, 9xxx, 2xx, 4xx, 610, and 630. Adds Graphics/Inject/NVIDIA=YES to CustoMac Default /Volumes/EFI/EFI/CLOVER/config.plist. Equivalent to Chimera/Chameleon GraphicsEnabler=Yes.</string>
+                <string>InjectNVIDIA</string>
+            </array>
+            <array>
+                <string>NVIDIA Web Drivers Boot Flag</string>
+                <string>For desktop systems with newer NVIDIA graphics cards based on Kepler, Maxwell or Pascal GPUs. Adds SystemParameters/NvidiaWeb =YES to CustoMac default /Volumes/EFI/EFI/CLOVER/config.plist.</string>
+                <string>Clover-NVIDIA-Web.pkg</string>
+            </array>
+        </array>
+    </dict>
+</plist>
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Name</key>
+        <array>
+            <string>Audio</string>
+            <string>Collection of kexts to enable the on-board Audio on your system. Make sure to read the descriptions carefully and only install the correct files for your audio codec.</string>
+        </array>
+        <key>Children</key>
+        <array>
+            <array>
+                <string>AppleALC</string>
+                <string>Enables native macOS HD audio for unsupported codecs without any filesystem modifications by vit9696. Installs Lilu.kext and AppleALC.kext to /Volumes/EFI/EFI/CLOVER/kexts/Other.</string>
+                <string>AppleALC-v1.4.7.pkg</string>
+            </array>
+            <array>
+                <string>Optional 3 Port (5.1) Audio</string>
+                <string>Optional for 3 port audio layouts. Remaps audio input and output ports for 5.1 analog support. Adds Devices/Audio/Inject=2 to /Volumes/EFI/EFI/CLOVER/config.plist.</string>
+                <string>Optional3PortAudio</string>
+            </array>
+            <array>
+                <string>Optional 3 Port (Native) Audio</string>
+                <string>Optional for 3 port audio layouts. Remaps audio input and output ports for analog support. Adds Devices/Audio/Inject=3 to /Volumes/EFI/EFI/CLOVER/config.plist.</string>
+                <string>OptionalNative3PortAudio</string>
+            </array>            <dict>
+                <key>Name</key>
+                <array>
+                    <string>VoodooHDA</string>
+                    <string>VoodooHDA is an open source audio driver for devices compliant with the Intel High Definition Audio (HDA) specification, based primarily on code from the FreeBSD hdac driver. It is intended as an Intel-only replacement for AppleHDA. Enables sound without DSDT patching. Click the triangle to expand and then choose the appropriate version.</string>
+                </array>
+                <key>Children</key>
+                <array>
+                    <array>
+                        <string>VoodooHDA v2.8.6</string>
+                        <string>Installs VoodooHDA.kext in /Volumes/EFI/EFI/CLOVER/kexts/Other. Also installs VoodooHDA.prefPane in /Library/PreferencePanes, VoodooHdaSettingsLoader.app in /Applications and getdump in /usr/local/bin.</string>
+                        <string>VoodooHDA-v2.8.6.pkg</string>
+                    </array>
+                    <array>
+                        <string>VoodooHDA v2.8.7</string>
+                        <string>Installs VoodooHDA.kext in /Volumes/EFI/EFI/CLOVER/kexts/Other. Also installs VoodooHDA.prefPane in /Library/PreferencePanes, VoodooHdaSettingsLoader.app in /Applications and getdump in /usr/local/bin.</string>
+                        <string>VoodooHDA-v2.8.7.pkg</string>
+                    </array>
+                    <array>
+                        <string>VoodooHDA v2.8.8</string>
+                        <string>Installs VoodooHDA.kext in /Volumes/EFI/EFI/CLOVER/kexts/Other. Also installs VoodooHDA.prefPane in /Library/PreferencePanes, VoodooHdaSettingsLoader.app in /Applications and getdump in /usr/local/bin.</string>
+                        <string>VoodooHDA-v2.8.8.pkg</string>
+                    </array>
+                    <array>
+                        <string>VoodooHDA v2.8.9</string>
+                        <string>Installs VoodooHDA.kext in /Volumes/EFI/EFI/CLOVER/kexts/Other. Also installs VoodooHDA.prefPane in /Library/PreferencePanes, VoodooHdaSettingsLoader.app in /Applications and getdump in /usr/local/bin.</string>
+                        <string>VoodooHDA-v2.8.9.pkg</string>
+                    </array>
+                    <array>
+                        <string>VoodooHDA v2.9.1</string>
+                        <string>Installs VoodooHDA.kext in /Volumes/EFI/EFI/CLOVER/kexts/Other. Also installs VoodooHDA.prefPane in /Library/PreferencePanes, VoodooHdaSettingsLoader.app in /Applications and getdump in /usr/local/bin.</string>
+                        <string>VoodooHDA-v2.9.1.pkg</string>
+                    </array>
+                </array>
+            </dict>
+        </array>
+    </dict>
+</plist>
+
+
