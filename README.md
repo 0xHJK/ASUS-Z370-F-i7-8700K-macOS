@@ -16,6 +16,12 @@ Hackintosh  10.14 mojave &amp; 10.15 catalina 华硕Z370-F黑苹果EFI配置和�
 
 公众号：黑星软件店
 
+QQ黑苹果一群：980197002（已满）
+
+QQ黑苹果二群：1036366410
+
+XPS 13 传送门：https://github.com/0xHJK/XPS13-9360-i5-8250U-macOS
+
 ## 主要步骤
 
 1. 找一台运行macOS的电脑，在App Store里面搜索下载目标版本的macOS系统
