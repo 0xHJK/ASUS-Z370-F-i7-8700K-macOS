@@ -1,21 +1,24 @@
 # ASUS-Z370-F-i7-8700K-macOS
 
+https://github.com/0xHJK/ASUS-Z370-F-i7-8700K-macOS
+
 Hackintosh 华硕Z370-F黑苹果EFI配置和教程，根据不同需求选择不同的EFI
 
 * macOS Big Sur 11.1（基于OpenCore，推荐）
-* macOS Catalina 10.15 （基于Clover）
+* macOS Catalina 10.15（基于Clover）
 * macOS Mojave 10.14 （基于Clover）
 
 ## 硬件配置
 
 - ✅ 主板：ASUS ROG STRIX Z370-F GAMING
-- ✅ CPU：Intel 8700K
+- ✅ CPU：Intel i7 8700K
 - ✅ 显卡：蓝宝石RX590 8G D5 超白金极光特别版
 - ✅ 内存：金士顿骇客神条 Predator DDR4 2933 8G * 2
 - ✅ 以太网卡：Intel I219V2 PCI Express Gigabit Ethernet（主板自带）
 - ✅ 无线网卡&蓝牙：BCM943602CS（另购）
 - ✅ 存储：SanDisk Ultra 3D NVMe
 - ✅ 显示器：DELL U2718Q
+- ✅ AirDrop、AppStore、Messages
 
 详细安装说明（基于Clover）：https://mp.weixin.qq.com/s/KOZiXMBKx13EYeQrAn7E5g
 
